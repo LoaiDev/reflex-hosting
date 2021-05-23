@@ -17,4 +17,6 @@ Route::view('/', 'index')->name('index');
 
 Route::view('dashboard', 'dashboard')->middleware(['auth'])->name('dashboard');
 
+Route::view('products', 'products')->name('products');
+
 require __DIR__.'/auth.php';

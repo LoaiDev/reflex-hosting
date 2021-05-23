@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7285bdcb-c196-49c5-a516-a6ad9289ea3d" name="Default Changelist" comment="" />
+    <list default="true" id="7285bdcb-c196-49c5-a516-a6ad9289ea3d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/images/66574161_padded_logo_128x128.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/background4-h_kp14pqyn.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/face1-h_kp15me8k.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/face2-h_kp15o8tb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/products.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +19,9 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -122,17 +134,24 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1sMQOM3KrQuYFmfCSlnWipqr9bi" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/images" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\xampp\htdocs\reflex-hosting\public\images" />
+    </key>
   </component>
   <component name="RunManager" selected="npm.dev">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -164,7 +183,11 @@
       <option name="presentableId" value="Default" />
       <updated>1620679945837</updated>
       <workItem from="1620679947856" duration="2463000" />
-      <workItem from="1620683296265" duration="7058000" />
+      <workItem from="1620683296265" duration="9290000" />
+      <workItem from="1620753846070" duration="1190000" />
+      <workItem from="1621705094599" duration="5787000" />
+      <workItem from="1621717966825" duration="2660000" />
+      <workItem from="1621775145052" duration="4532000" />
     </task>
     <servers />
   </component>
@@ -172,10 +195,14 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="557" y="288" key="Create View" timestamp="1620687417644">
+    <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1621705361174">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="557" y="288" key="Create View/0.0.1366.728@0.0.1366.728" timestamp="1620687417644" />
+    <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1621705361174" />
+    <state x="557" y="288" key="Create View" timestamp="1621779050284">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="557" y="288" key="Create View/0.0.1366.728@0.0.1366.728" timestamp="1621779050284" />
     <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1620683224642">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -192,6 +219,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1620683224642" />
+    <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1621705434356">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1366.728@0.0.1366.728" timestamp="1621705434356" />
     <state x="184" y="9" key="SettingsEditor" timestamp="1620683996133">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

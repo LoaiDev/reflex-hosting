@@ -39,11 +39,11 @@ body{font-family: Didact Gothic;}blockquote{border-color: #4e84c2;}div[submit-su
 				<ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true"><li class="nav-item">
 						<a class="nav-link mbr-bold link text-black display-7" href="page1.html">Minecraft Hosting<br></a> 
 					</li><li class="nav-item">
-						<a class="nav-link mbr-bold link text-black display-7" href="login.php">Login</a>
+						<a class="nav-link mbr-bold link text-black display-7" href="login">Login</a>
 					</li>
 					
 					<li class="nav-item">
-						<a class="nav-link mbr-bold link text-black display-7" href="signup.php">Signup</a>
+						<a class="nav-link mbr-bold link text-black display-7" href="signup">Signup</a>
 					</li></ul>
 				<!-- NAVBAR ITEMS END -->
 				<!-- SOCIAL ICON -->

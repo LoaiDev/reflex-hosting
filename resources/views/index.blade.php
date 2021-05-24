@@ -8,7 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
     <link rel="shortcut icon" href="{{asset("images/66574161_padded_logo_128x128.png")}}" type="image/x-icon">
     <meta name="description" content="">
-    <title>Reflex Hosting</title>
+    <title>Refex Hosting</title>
+
 
     <link rel="canonical" href="/">
     <style amp-boilerplate>body {
@@ -2764,129 +2765,118 @@
 
 </head>
 <body>
-<amp-sidebar id="sidebar" class="cid-r0O1EfDCHp" layout="nodisplay" side="right">
-    <div class="builder-sidebar" id="builder-sidebar">
-        <button on="tap:sidebar.close" class="close-sidebar">
-            <span></span>
-            <span></span>
-        </button>
+<body><amp-sidebar id="sidebar" class="cid-r0O1EfDCHp" layout="nodisplay" side="right">
+		<div class="builder-sidebar" id="builder-sidebar">
+			<button on="tap:sidebar.close" class="close-sidebar">
+			<span></span>
+			<span></span>
+			</button>
+		
+				
+				<!-- NAVBAR ITEMS -->
+				<ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true"><li class="nav-item">
+						<a class="nav-link mbr-bold link text-black display-7" href="page1.html">Minecraft Hosting<br></a> 
+					</li><li class="nav-item">
+						<a class="nav-link mbr-bold link text-black display-7" href="login.php">Login</a>
+					</li>
+					
+					<li class="nav-item">
+						<a class="nav-link mbr-bold link text-black display-7" href="signup.php">Signup</a>
+					</li></ul>
+				<!-- NAVBAR ITEMS END -->
+				<!-- SOCIAL ICON -->
+				
+				<!-- SOCIAL ICON END -->
+				<!-- SHOW BUTTON -->
+				
+				<!-- SHOW BUTTON END -->
+			</div>
+	</amp-sidebar>
+  <section class="menu1 menu horizontal-menu cid-r0O1EfDCHp" id="menu1-0">
+	
+	<!-- <div class="menu-wrapper"> -->
+	<nav class="navbar navbar-dropdown navbar-expand-lg navbar-fixed-top">
+		<div class="menu-container container">
+			<!-- SHOW LOGO -->
+			<div class="navbar-brand">
+				
+				<span class="navbar-caption-wrap"><a class="navbar-caption mbr-bold text-black display-5" href="index.html">Reflex Hosting</a></span>
+			</div>
+			<!-- SHOW LOGO END -->
+			<!-- COLLAPSED MENU -->
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				
+				<!-- NAVBAR ITEMS -->
+				<ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true"><li class="nav-item">
+						<a class="nav-link mbr-bold link text-black display-7" href="page1.html">Minecraft Hosting<br></a> 
+					</li><li class="nav-item">
+						<a class="nav-link mbr-bold link text-black display-7" href="#features1-2">Login</a>
+					</li>
+					
+					<li class="nav-item">
+						<a class="nav-link mbr-bold link text-black display-7" href="#contacts7-12">Signup</a>
+					</li></ul>
 
-
-        <!-- NAVBAR ITEMS -->
-        <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true">
-            <li class="nav-item">
-                <a class="nav-link mbr-bold link text-black display-7" href="{{route('products')}}">Minecraft Hosting<br></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link mbr-bold link text-black display-7" href="{{route('login')}}">Login</a>
-            </li>
-
-            <li class="nav-item">
-                <a class="nav-link mbr-bold link text-black display-7" href="{{route('register')}}">Signup</a>
-            </li>
-        </ul>
-        <!-- NAVBAR ITEMS END -->
-        <!-- SOCIAL ICON -->
-
-        <!-- SOCIAL ICON END -->
-        <!-- SHOW BUTTON -->
-
-        <!-- SHOW BUTTON END -->
-    </div>
-</amp-sidebar>
-<section class="menu1 menu horizontal-menu cid-r0O1EfDCHp" id="menu1-0">
-
-    <!-- <div class="menu-wrapper"> -->
-    <nav class="navbar navbar-dropdown navbar-expand-lg navbar-fixed-top">
-        <div class="menu-container container">
-            <!-- SHOW LOGO -->
-            <div class="navbar-brand">
-
-                <span class="navbar-caption-wrap"><a class="navbar-caption mbr-bold text-black display-5"
-                                                     href="{{route('index')}}">Reflex Hosting</a></span>
-            </div>
-            <!-- SHOW LOGO END -->
-            <!-- COLLAPSED MENU -->
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
-                <!-- NAVBAR ITEMS -->
-                <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true">
-                    <li class="nav-item">
-                        <a class="nav-link mbr-bold link text-black display-7" href="{{route('products')}}">Minecraft
-                            Hosting<br></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link mbr-bold link text-black display-7" href="{{route('login')}}">Login</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link mbr-bold link text-black display-7" href="{{route('register')}}">Signup</a>
-                    </li>
-                </ul>
-                <!-- NAVBAR ITEMS END -->
-                <!-- SOCIAL ICON -->
-
-                <!-- SOCIAL ICON END -->
-                <!-- SHOW BUTTON -->
-
-                <!-- SHOW BUTTON END -->
-            </div>
-            <!-- COLLAPSED MENU END -->
-
-            <button on="tap:sidebar.toggle" class="ampstart-btn hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-        </div>
-    </nav>
-    <!-- AMP plug -->
-
-    <!-- </div> -->
+				<!-- NAVBAR ITEMS END -->
+				<!-- SOCIAL ICON -->
+				
+				<!-- SOCIAL ICON END -->
+				<!-- SHOW BUTTON -->
+				
+				<!-- SHOW BUTTON END -->
+			</div>
+			<!-- COLLAPSED MENU END -->
+			
+			<button on="tap:sidebar.toggle" class="ampstart-btn hamburger">
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+			</button>
+		</div>
+	</nav>
+	<!-- AMP plug -->
+	
+	<!-- </div> -->
 </section>
 
 <section class="header1 cid-r89gzwx5mR" id="header1-1t">
-
+    
     <div class="mbr-overlay"></div>
     <div class="container">
         <div class="mbr-row align-left">
             <div class="title-block mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-6">
                 <h1 class="mbr-section-title mbr-fonts-style mbr-bold display-1">Reflex Hosting</h1>
                 <h2 class="mbr-section-subtitle mbr-fonts-style mbr-pt-3 display-2">Where we take hosting seriously</h2>
-
-                <div class="mbr-section-btn mbr-pt-4"><a class="btn-primary btn display-7" href="{{route('products')}}">View
-                        products</a></div>
+                
+                <div class="mbr-section-btn mbr-pt-4"><a class="btn-primary btn display-7" href="page1.html">View products</a></div>
             </div>
         </div>
     </div>
 </section>
 
 <section class="features1 cid-r0O1Lmz0xf" id="features1-2">
+    
 
-
+    
     <div class="container">
         <div class="title-wrap mbr-px-4 align-center">
             <h3 class="mbr-section-title mbr-bold mbr-fonts-style display-2">Why Choose Us</h3>
-
+            
         </div>
         <div class="mbr-row mbr-pt-4 mbr-jc-c">
             <div class="card mbr-col-sm-12 mbr-col-md-8 mbr-col-lg-4 align-center md-pb">
                 <div class="card-wrapper mbr-flex mbr-column mbr-p-4">
                     <div class="card-img align-center mbr-pb-3">
                         <div class="iconfont-wrapper">
-                            <span class="amp-iconfont fa-heartbeat fa"><svg width="100%" height="100%"
-                                                                            viewBox="0 0 1792 1792"
-                                                                            xmlns="http://www.w3.org/2000/svg"
-                                                                            fill="currentColor"><path
-                                        d="M1280 1024h305q-5 6-10 10.5t-9 7.5l-3 4-623 600q-18 18-44 18t-44-18l-624-602q-5-2-21-20h369q22 0 39.5-13.5t22.5-34.5l70-281 190 667q6 20 23 33t39 13q21 0 38-13t23-33l146-485 56 112q18 35 57 35zm512-428q0 145-103 300h-369l-111-221q-8-17-25.5-27t-36.5-8q-45 5-56 46l-129 430-196-686q-6-20-23.5-33t-39.5-13-39 13.5-22 34.5l-116 464h-423q-103-155-103-300 0-220 127-344t351-124q62 0 126.5 21.5t120 58 95.5 68.5 76 68q36-36 76-68t95.5-68.5 120-58 126.5-21.5q224 0 351 124t127 344z"></path></svg></span>
+                            <span class="amp-iconfont fa-heartbeat fa"><svg width="100%" height="100%" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg" fill="currentColor"><path d="M1280 1024h305q-5 6-10 10.5t-9 7.5l-3 4-623 600q-18 18-44 18t-44-18l-624-602q-5-2-21-20h369q22 0 39.5-13.5t22.5-34.5l70-281 190 667q6 20 23 33t39 13q21 0 38-13t23-33l146-485 56 112q18 35 57 35zm512-428q0 145-103 300h-369l-111-221q-8-17-25.5-27t-36.5-8q-45 5-56 46l-129 430-196-686q-6-20-23.5-33t-39.5-13-39 13.5-22 34.5l-116 464h-423q-103-155-103-300 0-220 127-344t351-124q62 0 126.5 21.5t120 58 95.5 68.5 76 68q36-36 76-68t95.5-68.5 120-58 126.5-21.5q224 0 351 124t127 344z"></path></svg></span>
                         </div>
                     </div>
                     <div class="card-box">
                         <h3 class="card-title mbr-bold mbr-fonts-style display-5">Uptime</h3>
-
+                        
                         <p class="card-text mbr-fonts-style mbr-pt-2 display-7">That Right 100% uptime</p>
-
+                        
                     </div>
                 </div>
             </div>
@@ -2894,18 +2884,14 @@
                 <div class="card-wrapper mbr-flex mbr-column mbr-p-4">
                     <div class="card-img align-center mbr-pb-3">
                         <div class="iconfont-wrapper">
-                            <span class="amp-iconfont fa-money fa"><svg width="100%" height="100%"
-                                                                        viewBox="0 0 2048 1792"
-                                                                        xmlns="http://www.w3.org/2000/svg"
-                                                                        fill="currentColor"><path
-                                        d="M832 1152h384v-96h-128v-448h-114l-148 137 77 80q42-37 55-57h2v288h-128v96zm512-256q0 70-21 142t-59.5 134-101.5 101-138 39-138-39-101.5-101-59.5-134-21-142 21-142 59.5-134 101.5-101 138-39 138 39 101.5 101 59.5 134 21 142zm512 256v-512q-106 0-181-75t-75-181h-1152q0 106-75 181t-181 75v512q106 0 181 75t75 181h1152q0-106 75-181t181-75zm128-832v1152q0 26-19 45t-45 19h-1792q-26 0-45-19t-19-45v-1152q0-26 19-45t45-19h1792q26 0 45 19t19 45z"></path></svg></span>
+                            <span class="amp-iconfont fa-money fa"><svg width="100%" height="100%" viewBox="0 0 2048 1792" xmlns="http://www.w3.org/2000/svg" fill="currentColor"><path d="M832 1152h384v-96h-128v-448h-114l-148 137 77 80q42-37 55-57h2v288h-128v96zm512-256q0 70-21 142t-59.5 134-101.5 101-138 39-138-39-101.5-101-59.5-134-21-142 21-142 59.5-134 101.5-101 138-39 138 39 101.5 101 59.5 134 21 142zm512 256v-512q-106 0-181-75t-75-181h-1152q0 106-75 181t-181 75v512q106 0 181 75t75 181h1152q0-106 75-181t181-75zm128-832v1152q0 26-19 45t-45 19h-1792q-26 0-45-19t-19-45v-1152q0-26 19-45t45-19h1792q26 0 45 19t19 45z"></path></svg></span>
                         </div>
                     </div>
                     <div class="card-box">
                         <h3 class="card-title mbr-bold mbr-fonts-style display-5">Cheap prices</h3>
-
+                        
                         <p class="card-text mbr-fonts-style mbr-pt-2 display-7">Cheapest prices from .25 per gb</p>
-
+                        
                     </div>
                 </div>
             </div>
@@ -2913,60 +2899,49 @@
                 <div class="card-wrapper mbr-flex mbr-column mbr-p-4">
                     <div class="card-img align-center mbr-pb-3">
                         <div class="iconfont-wrapper">
-                            <span class="amp-iconfont fa-wifi fa"><svg width="100%" height="100%"
-                                                                       viewBox="0 0 2048 1792"
-                                                                       xmlns="http://www.w3.org/2000/svg"
-                                                                       fill="currentColor"><path
-                                        d="M1024 1523q-20 0-93-73.5t-73-93.5q0-32 62.5-54t103.5-22 103.5 22 62.5 54q0 20-73 93.5t-93 73.5zm270-271q-2 0-40-25t-101.5-50-128.5-25-128.5 25-101 50-40.5 25q-18 0-93.5-75t-75.5-93q0-13 10-23 78-77 196-121t233-44 233 44 196 121q10 10 10 23 0 18-75.5 93t-93.5 75zm273-272q-11 0-23-8-136-105-252-154.5t-268-49.5q-85 0-170.5 22t-149 53-113.5 62-79 53-31 22q-17 0-92-75t-75-93q0-12 10-22 132-132 320-205t380-73 380 73 320 205q10 10 10 22 0 18-75 93t-92 75zm271-271q-11 0-22-9-179-157-371.5-236.5t-420.5-79.5-420.5 79.5-371.5 236.5q-11 9-22 9-17 0-92.5-75t-75.5-93q0-13 10-23 187-186 445-288t527-102 527 102 445 288q10 10 10 23 0 18-75.5 93t-92.5 75z"></path></svg></span>
+                            <span class="amp-iconfont fa-wifi fa"><svg width="100%" height="100%" viewBox="0 0 2048 1792" xmlns="http://www.w3.org/2000/svg" fill="currentColor"><path d="M1024 1523q-20 0-93-73.5t-73-93.5q0-32 62.5-54t103.5-22 103.5 22 62.5 54q0 20-73 93.5t-93 73.5zm270-271q-2 0-40-25t-101.5-50-128.5-25-128.5 25-101 50-40.5 25q-18 0-93.5-75t-75.5-93q0-13 10-23 78-77 196-121t233-44 233 44 196 121q10 10 10 23 0 18-75.5 93t-93.5 75zm273-272q-11 0-23-8-136-105-252-154.5t-268-49.5q-85 0-170.5 22t-149 53-113.5 62-79 53-31 22q-17 0-92-75t-75-93q0-12 10-22 132-132 320-205t380-73 380 73 320 205q10 10 10 22 0 18-75 93t-92 75zm271-271q-11 0-22-9-179-157-371.5-236.5t-420.5-79.5-420.5 79.5-371.5 236.5q-11 9-22 9-17 0-92.5-75t-75.5-93q0-13 10-23 187-186 445-288t527-102 527 102 445 288q10 10 10 23 0 18-75.5 93t-92.5 75z"></path></svg></span>
                         </div>
                     </div>
                     <div class="card-box">
                         <h3 class="card-title mbr-bold mbr-fonts-style display-5">High Speed connection</h3>
-
+                        
                         <p class="card-text mbr-fonts-style mbr-pt-2 display-7">400mb wifi uplink</p>
-
+                        
                     </div>
                 </div>
             </div>
-
+            
         </div>
     </div>
 </section>
 
 <section class="team1 cid-r89mu6mCfS" id="team1-1v">
-
-
+    
+    
     <!--  -->
     <div class="container">
         <div class="title align-center">
             <h3 class="mbr-section-title mbr-bold mbr-fonts-style display-2">Our team!</h3>
-            <h4 class="mbr-section-subtitle mbr-pt-2 mbr-fonts-style display-5">The Heart of Our Company is what our
-                customers say</h4>
+            <h4 class="mbr-section-subtitle mbr-pt-2 mbr-fonts-style display-5">The Heart of Our Company is our staff team</h4>
         </div>
         <div class="mbr-row mbr-jc-c mbr-pt-4">
             <div class="card mbr-col-sm-12 mbr-col-md-10 mbr-col-lg-6 md-pb">
                 <div class="card-wrapper mbr-flex">
                     <div class="card-img mbr-col-md-6">
-                        <amp-img class="placeholder-loader" src="{{asset("images/face1-h_kp15me8k.jpg")}}" layout="responsive"
-                                 width="216" height="216" alt="">
+                        <amp-img class="placeholder-loader" src="images/face1-h_kp15me8k.jpg" layout="responsive" width="216" height="216" alt="">
                             <div placeholder="" class="placeholder">
                                 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
-                                    <circle class="big" fill="none" stroke="#c2e0e0" stroke-width="3"
-                                            stroke-dasharray="230" stroke-dashoffset="230" cx="150" cy="150"
-                                            r="145"></circle>
-                                    <circle class="small" fill="none" stroke="#c2e0e0" stroke-width="3"
-                                            stroke-dasharray="212" cx="150" cy="150" r="135"></circle>
-                                </svg>
-                            </div>
-
+                                    <circle class="big" fill="none" stroke="#c2e0e0" stroke-width="3" stroke-dasharray="230" stroke-dashoffset="230" cx="150" cy="150" r="145"></circle>
+                                    <circle class="small" fill="none" stroke="#c2e0e0" stroke-width="3" stroke-dasharray="212" cx="150" cy="150" r="135"></circle>
+                                </svg></div>
+                            
                         </amp-img>
                     </div>
                     <div class="card-box mbr-pt-3 mbr-px-4 mbr-pb-3">
                         <h3 class="card-title mbr-bold mbr-fonts-style display-5">Reflex Drifty</h3>
                         <h4 class="card-subtitle mbr-bold mbr-fonts-style mbr-pt-3 display-7">Founder</h4>
-                        <p class="card-text mbr-fonts-style mbr-pt-1 display-7">He developed the website and made
-                            brought the company together&nbsp;</p>
-
+                        <p class="card-text mbr-fonts-style mbr-pt-1 display-7">He developed the website and made brought the company together&nbsp;</p>
+                        
                     </div>
                 </div>
             </div>
@@ -2974,53 +2949,46 @@
             <div class="card mbr-col-sm-12 mbr-col-md-10 mbr-col-lg-6 last-child">
                 <div class="card-wrapper mbr-flex">
                     <div class="card-img mbr-col-md-6">
-                        <amp-img class="placeholder-loader" src="{{asset("images/face2-h_kp15o8tb.jpg")}}" layout="responsive"
-                                 width="216" height="216" alt="">
+                        <amp-img class="placeholder-loader" src="images/face2-h_kp15o8tb.jpg" layout="responsive" width="216" height="216" alt="">
                             <div placeholder="" class="placeholder">
                                 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
-                                    <circle class="big" fill="none" stroke="#c2e0e0" stroke-width="3"
-                                            stroke-dasharray="230" stroke-dashoffset="230" cx="150" cy="150"
-                                            r="145"></circle>
-                                    <circle class="small" fill="none" stroke="#c2e0e0" stroke-width="3"
-                                            stroke-dasharray="212" cx="150" cy="150" r="135"></circle>
-                                </svg>
-                            </div>
-
+                                    <circle class="big" fill="none" stroke="#c2e0e0" stroke-width="3" stroke-dasharray="230" stroke-dashoffset="230" cx="150" cy="150" r="145"></circle>
+                                    <circle class="small" fill="none" stroke="#c2e0e0" stroke-width="3" stroke-dasharray="212" cx="150" cy="150" r="135"></circle>
+                                </svg></div>
+                            
                         </amp-img>
                     </div>
                     <div class="card-box mbr-pt-3 mbr-px-4 mbr-pb-3">
                         <h3 class="card-title mbr-bold mbr-fonts-style display-5">LoaiA</h3>
                         <h4 class="card-subtitle mbr-bold mbr-fonts-style mbr-pt-3 display-7">PHP developer&nbsp;</h4>
                         <p class="card-text mbr-fonts-style mbr-pt-1 display-7">Server side developer&nbsp;</p>
-
+                        
                     </div>
                 </div>
             </div>
             <!--  -->
-
+            
             <!--  -->
-
+            
         </div>
     </div>
 </section>
 
 <section class="mbr-section reviews cid-r7Y8vlF8I6" id="reviews1-1q">
-
-
+    
+    
     <div class="container">
         <div class="title mbr-row">
             <h3 class="mbr-section-title mbr-fonts-style mbr-bold align-center display-2">Reviews</h3>
         </div>
         <div class="mbr-row mbr-jc-c mbr-pt-4">
             <div class="card mbr-col-sm-12 mbr-col-md-6 md-pb mbr-col-lg-3">
-                <p class="review mbr-fonts-style display-7">Reflex hosting offers the fastest nodes with incredible
-                    prices</p>
+                <p class="review mbr-fonts-style display-7">Reflex hosting offers the fastest nodes with incredible prices</p>
                 <p class="name mbr-fonts-style mbr-bold mbr-pt-3 display-7">- fizz</p>
                 <p class="subtitle mbr-fonts-style mbr-bold mbr-pt-1 display-7">customer</p>
             </div>
             <div class="card mbr-col-sm-12 mbr-col-md-6 md-pb mbr-col-lg-3">
-                <p class="review mbr-fonts-style display-7">My server was setup instantly with no issues, thank you
-                    reflex hosting!</p>
+                <p class="review mbr-fonts-style display-7">My server was setup instantly with no issues, thank you reflex hosting!</p>
                 <p class="name mbr-fonts-style mbr-bold mbr-pt-3 display-7">- gogi8956</p>
                 <p class="subtitle mbr-fonts-style mbr-bold mbr-pt-1 display-7">Customer</p>
             </div>
@@ -3039,25 +3007,22 @@
 </section>
 
 <section class="contacts7 cid-r1rE4FefB5" id="contacts7-12">
-
-
+    
+    
     <div class="container">
         <div class="title-wrap align-center">
             <h3 class="mbr-section-title mbr-bold mbr-fonts-style display-2">
-                Contact with Us</h3>
-
+                Contact Us</h3>
+            
         </div>
         <div class="mbr-row mbr-px-2 mbr-pt-4 mbr-jc-c">
             <div class="card mbr-col-sm-12 mbr-col-md-6 mbr-col-lg-6 align-center">
                 <div class="card-wrapper mbr-flex mbr-column">
                     <div class="card-img align-center">
                         <div class="iconfont-wrapper">
-                            <span class="amp-iconfont mbri-letter"><svg version="1.1" xmlns="http://www.w3.org/2000/svg"
-                                                                        width="100%" height="100%" viewBox="0 0 32 32"
-                                                                        fill="currentColor">
+                            <span class="amp-iconfont mbri-letter"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 32 32" fill="currentColor">
 
-<path
-    d="M3.333 8c-0.667 0-0.911 0.861-0.371 1.221l10.663 7.329c0.653 0.449 1.442 0.783 2.374 0.783s1.727-0.335 2.38-0.783l10.663-7.329c0.736-0.498-0.082-1.568-0.755-1.098l-10.663 7.329c-0.505 0.347-0.999 0.548-1.625 0.548s-1.114-0.201-1.619-0.548l-10.663-7.329c-0.11-0.078-0.25-0.12-0.384-0.122zM2 5.333c-1.096 0-2 0.904-2 2v17.333c0 1.096 0.904 2 2 2h28c1.096 0 2-0.904 2-2v-17.333c0-1.096-0.904-2-2-2zM2 6.667h28c0.381 0 0.667 0.286 0.667 0.667v17.333c0 0.381-0.286 0.667-0.667 0.667h-28c-0.381 0-0.667-0.286-0.667-0.667v-17.333c0-0.381 0.286-0.667 0.667-0.667z"></path>
+<path d="M3.333 8c-0.667 0-0.911 0.861-0.371 1.221l10.663 7.329c0.653 0.449 1.442 0.783 2.374 0.783s1.727-0.335 2.38-0.783l10.663-7.329c0.736-0.498-0.082-1.568-0.755-1.098l-10.663 7.329c-0.505 0.347-0.999 0.548-1.625 0.548s-1.114-0.201-1.619-0.548l-10.663-7.329c-0.11-0.078-0.25-0.12-0.384-0.122zM2 5.333c-1.096 0-2 0.904-2 2v17.333c0 1.096 0.904 2 2 2h28c1.096 0 2-0.904 2-2v-17.333c0-1.096-0.904-2-2-2zM2 6.667h28c0.381 0 0.667 0.286 0.667 0.667v17.333c0 0.381-0.286 0.667-0.667 0.667h-28c-0.381 0-0.667-0.286-0.667-0.667v-17.333c0-0.381 0.286-0.667 0.667-0.667z"></path>
 </svg></span>
                         </div>
                     </div>
@@ -3071,11 +3036,7 @@
                 <div class="card-wrapper mbr-flex mbr-column">
                     <div class="card-img align-center">
                         <div class="iconfont-wrapper">
-                            <span class="amp-iconfont fa-keyboard-o fa"><svg width="100%" height="100%"
-                                                                             viewBox="0 0 2048 1792"
-                                                                             xmlns="http://www.w3.org/2000/svg"
-                                                                             fill="currentColor"><path
-                                        d="M448 1168v96q0 16-16 16h-96q-16 0-16-16v-96q0-16 16-16h96q16 0 16 16zm128-256v96q0 16-16 16h-224q-16 0-16-16v-96q0-16 16-16h224q16 0 16 16zm-128-256v96q0 16-16 16h-96q-16 0-16-16v-96q0-16 16-16h96q16 0 16 16zm1024 512v96q0 16-16 16h-864q-16 0-16-16v-96q0-16 16-16h864q16 0 16 16zm-640-256v96q0 16-16 16h-96q-16 0-16-16v-96q0-16 16-16h96q16 0 16 16zm-128-256v96q0 16-16 16h-96q-16 0-16-16v-96q0-16 16-16h96q16 0 16 16zm384 256v96q0 16-16 16h-96q-16 0-16-16v-96q0-16 16-16h96q16 0 16 16zm-128-256v96q0 16-16 16h-96q-16 0-16-16v-96q0-16 16-16h96q16 0 16 16zm384 256v96q0 16-16 16h-96q-16 0-16-16v-96q0-16 16-16h96q16 0 16 16zm384 256v96q0 16-16 16h-96q-16 0-16-16v-96q0-16 16-16h96q16 0 16 16zm-512-512v96q0 16-16 16h-96q-16 0-16-16v-96q0-16 16-16h96q16 0 16 16zm256 0v96q0 16-16 16h-96q-16 0-16-16v-96q0-16 16-16h96q16 0 16 16zm256 0v352q0 16-16 16h-224q-16 0-16-16v-96q0-16 16-16h112v-240q0-16 16-16h96q16 0 16 16zm128 752v-896h-1664v896h1664zm128-896v896q0 53-37.5 90.5t-90.5 37.5h-1664q-53 0-90.5-37.5t-37.5-90.5v-896q0-53 37.5-90.5t90.5-37.5h1664q53 0 90.5 37.5t37.5 90.5z"></path></svg></span>
+                           <span class="amp-iconfont fa-keyboard-o fa"><svg width="100%" height="100%" viewBox="0 0 2048 1792" xmlns="http://www.w3.org/2000/svg" fill="currentColor"><path d="M448 1168v96q0 16-16 16h-96q-16 0-16-16v-96q0-16 16-16h96q16 0 16 16zm128-256v96q0 16-16 16h-224q-16 0-16-16v-96q0-16 16-16h224q16 0 16 16zm-128-256v96q0 16-16 16h-96q-16 0-16-16v-96q0-16 16-16h96q16 0 16 16zm1024 512v96q0 16-16 16h-864q-16 0-16-16v-96q0-16 16-16h864q16 0 16 16zm-640-256v96q0 16-16 16h-96q-16 0-16-16v-96q0-16 16-16h96q16 0 16 16zm-128-256v96q0 16-16 16h-96q-16 0-16-16v-96q0-16 16-16h96q16 0 16 16zm384 256v96q0 16-16 16h-96q-16 0-16-16v-96q0-16 16-16h96q16 0 16 16zm-128-256v96q0 16-16 16h-96q-16 0-16-16v-96q0-16 16-16h96q16 0 16 16zm384 256v96q0 16-16 16h-96q-16 0-16-16v-96q0-16 16-16h96q16 0 16 16zm384 256v96q0 16-16 16h-96q-16 0-16-16v-96q0-16 16-16h96q16 0 16 16zm-512-512v96q0 16-16 16h-96q-16 0-16-16v-96q0-16 16-16h96q16 0 16 16zm256 0v96q0 16-16 16h-96q-16 0-16-16v-96q0-16 16-16h96q16 0 16 16zm256 0v352q0 16-16 16h-224q-16 0-16-16v-96q0-16 16-16h112v-240q0-16 16-16h96q16 0 16 16zm128 752v-896h-1664v896h1664zm128-896v896q0 53-37.5 90.5t-90.5 37.5h-1664q-53 0-90.5-37.5t-37.5-90.5v-896q0-53 37.5-90.5t90.5-37.5h1664q53 0 90.5 37.5t37.5 90.5z"></path></svg></span>
                         </div>
                     </div>
                     <div class="card-box mbr-pt-3">
@@ -3084,12 +3045,14 @@
                     </div>
                 </div>
             </div>
-
-
+            
+            
         </div>
     </div>
 </section>
 
 
+  
+  
 </body>
 </html>

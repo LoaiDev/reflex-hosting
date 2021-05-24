@@ -70,13 +70,13 @@ body{font-family: Didact Gothic;}blockquote{border-color: #4e84c2;}div[submit-su
 				
 				<!-- NAVBAR ITEMS -->
 				<ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true"><li class="nav-item">
-						<a class="nav-link mbr-bold link text-black display-7" href="page1.html">Minecraft Hosting<br></a> 
+						<a class="nav-link mbr-bold link text-black display-7" href="products">Minecraft Hosting<br></a> 
 					</li><li class="nav-item">
-						<a class="nav-link mbr-bold link text-black display-7" href="#features1-2">Login</a>
+						<a class="nav-link mbr-bold link text-black display-7" href="login">Login</a>
 					</li>
 					
 					<li class="nav-item">
-						<a class="nav-link mbr-bold link text-black display-7" href="#contacts7-12">Signup</a>
+						<a class="nav-link mbr-bold link text-black display-7" href="register">Signup</a>
 					</li></ul>
 
 				<!-- NAVBAR ITEMS END -->
@@ -111,7 +111,7 @@ body{font-family: Didact Gothic;}blockquote{border-color: #4e84c2;}div[submit-su
                 <h1 class="mbr-section-title mbr-fonts-style mbr-bold display-1">Reflex Hosting</h1>
                 <h2 class="mbr-section-subtitle mbr-fonts-style mbr-pt-3 display-2">Where we take hosting seriously</h2>
                 
-                <div class="mbr-section-btn mbr-pt-4"><a class="btn-primary btn display-7" href="page1.html">View products</a></div>
+                <div class="mbr-section-btn mbr-pt-4"><a class="btn-primary btn display-7" href="products">View products</a></div>
             </div>
         </div>
     </div>

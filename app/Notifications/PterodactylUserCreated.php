@@ -38,11 +38,10 @@ class PterodactylUserCreated extends Notification
         $url = 'https://panel.reflexhosting.co.uk';
         return (new MailMessage)
             ->subject(Lang::get('Panel Details'))
-            ->line(Lang::get('Hey {user},'))
             ->line(Lang::get('Thanks for signing up on Reflex Hosting! here are your panel details '))
-            ->action(Lang::get('Go To Panel '), $url)
             ->line(Lang::get('Username: ' . $notifiable->username))
-            ->line(Lang::get(' password: ' . $this->password));
+            ->line(Lang::get(' Password: ' . $this->password))
+            ->action(Lang::get('Panel '), $url);
     }
 
     /**

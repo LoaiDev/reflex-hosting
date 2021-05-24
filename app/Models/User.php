@@ -54,7 +54,7 @@ class User extends Authenticatable implements MustVerifyEmail
     public function createPterodactylUser()
     {
 
-        $password = Str::random(8);
+        $password = Str::random();
         $user = Pterodactyl::createUser([
             'email' => $this->email,
             'username' => $this->username,

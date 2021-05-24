@@ -43,7 +43,7 @@ body{font-family: Didact Gothic;}blockquote{border-color: #4e84c2;}div[submit-su
 					</li>
 					
 					<li class="nav-item">
-						<a class="nav-link mbr-bold link text-black display-7" href="signup">Signup</a>
+						<a class="nav-link mbr-bold link text-black display-7" href="register">Signup</a>
 					</li></ul>
 				<!-- NAVBAR ITEMS END -->
 				<!-- SOCIAL ICON -->

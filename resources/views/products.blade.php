@@ -62,7 +62,7 @@ body{font-family: Didact Gothic;}blockquote{border-color: #4e84c2;}div[submit-su
 			<!-- SHOW LOGO -->
 			<div class="navbar-brand">
 				
-				<span class="navbar-caption-wrap"><a class="navbar-caption mbr-bold text-black display-5" href="#">Reflex Hosting</a></span>
+				<span class="navbar-caption-wrap"><a class="navbar-caption mbr-bold text-black display-5" href="">Reflex Hosting</a></span>
 			</div>
 			<!-- SHOW LOGO END -->
 			<!-- COLLAPSED MENU -->
@@ -70,7 +70,7 @@ body{font-family: Didact Gothic;}blockquote{border-color: #4e84c2;}div[submit-su
 				
 				<!-- NAVBAR ITEMS -->
 				<ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true"><li class="nav-item">
-						<a class="nav-link mbr-bold link text-black display-7" href="page1.html">Minecraft Hosting<br></a> 
+						<a class="nav-link mbr-bold link text-black display-7" href="products">Minecraft Hosting<br></a> 
 					</li><li class="nav-item">
 						<a class="nav-link mbr-bold link text-black display-7" href="#features1-2">Login</a>
 					</li>

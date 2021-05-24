@@ -30,4 +30,9 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
+    'pterodactyl' => [
+        'key' => env('PTERODACTYL_APPLICATION_KEY'),
+        'url' => env('PTERODACTYL_URL', 'https://panel.reflexhosting.co.uk/api/application/')
+    ],
+
 ];

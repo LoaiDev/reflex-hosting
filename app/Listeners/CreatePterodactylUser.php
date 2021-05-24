@@ -2,6 +2,8 @@
 
 namespace App\Listeners;
 
+use Illuminate\Auth\Events\Verified;
+
 class CreatePterodactylUser
 {
     public function __construct()
@@ -9,8 +11,12 @@ class CreatePterodactylUser
         //
     }
 
-    public function handle($event)
+    public function handle(Verified $event)
     {
+        $user = $event->user;
 
+        if (!$user->hasPterodactylUser()) {
+            $user->createPterodactylUser();
+        }
     }
 }

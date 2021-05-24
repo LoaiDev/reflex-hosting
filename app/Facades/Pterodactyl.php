@@ -4,7 +4,12 @@
 namespace App\Facades;
 
 
-class Pterodactyl
-{
+use Illuminate\Support\Facades\Facade;
 
+class Pterodactyl extends Facade
+{
+    public static function getFacadeAccessor()
+    {
+        return 'petro';
+    }
 }

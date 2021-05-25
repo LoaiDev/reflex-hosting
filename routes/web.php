@@ -22,10 +22,7 @@ Route::view('configure', 'configure')->name('configure');
 Route::group(['middleware' => ['auth', 'verified']], function (){
 
 Route::view('dashboard', 'dashboard')->name('dashboard;);
-    
-
 
 });
-
 
 require __DIR__.'/auth.php';

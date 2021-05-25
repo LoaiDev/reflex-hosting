@@ -64,6 +64,8 @@ class User extends Authenticatable implements MustVerifyEmail
         ]);
 
         $this->pterodactyl_id = $user['attributes']['id'];
+        $this->save();
+
         $this->notify(new PterodactylUserCreated($password));
     }
 

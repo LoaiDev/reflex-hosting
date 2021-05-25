@@ -86,4 +86,8 @@ class PterodactylClient
     {
         return $this->get('users/' . $id)->json();
     }
+    public function getUserWithServers(int $id)
+    {
+        return $this->withIncludes('servers')->get('users/' . $id)->json();
+    }
 }

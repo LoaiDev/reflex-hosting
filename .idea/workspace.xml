@@ -5,9 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7285bdcb-c196-49c5-a516-a6ad9289ea3d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/DashboardController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/HasPterodactylUser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_05_25_143547_create_plans_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/reflex-hosting.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/reflex-hosting.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Clients/PterodactylClient.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Clients/PterodactylClient.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Plan.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Notifications/PterodactylUserCreated.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Notifications/PterodactylUserCreated.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,6 +149,9 @@
       <path value="$PROJECT_DIR$/vendor/moneyphp/money" />
       <path value="$PROJECT_DIR$/vendor/sabberworm/php-css-parser" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-icu" />
+      <path value="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar" />
+      <path value="$PROJECT_DIR$/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/vendor/maximebf/debugbar" />
     </include_path>
   </component>
   <component name="ProjectId" id="1sMQOM3KrQuYFmfCSlnWipqr9bi" />
@@ -197,7 +212,8 @@
       <workItem from="1621786855171" duration="6000000" />
       <workItem from="1621812492137" duration="5168000" />
       <workItem from="1621857760010" duration="3745000" />
-      <workItem from="1621870482868" duration="13767000" />
+      <workItem from="1621870482868" duration="14457000" />
+      <workItem from="1621945354044" duration="8153000" />
     </task>
     <servers />
   </component>
@@ -209,14 +225,26 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1621705361174" />
+    <state x="532" y="274" key="Create Controller" timestamp="1621966878281">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="532" y="274" key="Create Controller/0.0.1366.728@0.0.1366.728" timestamp="1621966878281" />
+    <state x="557" y="228" key="Create Database Migration" timestamp="1621946147501">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="557" y="228" key="Create Database Migration/0.0.1366.728@0.0.1366.728" timestamp="1621946147501" />
     <state x="557" y="246" key="Create Event Listener" timestamp="1621887560984">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="557" y="246" key="Create Event Listener/0.0.1366.728@0.0.1366.728" timestamp="1621887560984" />
-    <state x="557" y="288" key="Create Model" timestamp="1621792822542">
+    <state x="526" y="259" key="Create Middleware" timestamp="1621967056534">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="557" y="288" key="Create Model/0.0.1366.728@0.0.1366.728" timestamp="1621792822542" />
+    <state x="526" y="259" key="Create Middleware/0.0.1366.728@0.0.1366.728" timestamp="1621967056534" />
+    <state x="557" y="288" key="Create Model" timestamp="1621946054700">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="557" y="288" key="Create Model/0.0.1366.728@0.0.1366.728" timestamp="1621946054700" />
     <state x="537" y="245" key="Create Notification" timestamp="1621889801442">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -253,9 +281,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1621876310509" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1621889845702">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1621972982487">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1621889845702" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1621972982487" />
   </component>
 </project>

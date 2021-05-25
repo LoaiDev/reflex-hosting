@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\DashboardController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -17,14 +19,14 @@ Route::view('/', 'index')->name('index');
 
 Route::view('products', 'products')->name('products');
 
+Route::view('create', 'create')->name('create');
 
+Route::group(['middleware' => ['auth', 'verified', 'pterodactyl']], function () {
 
-Route::group(['middleware' => ['auth', 'verified']], function (){
-
-Route::view('dashboard', 'dashboard')->name('dashboard');
-    
-Route::view('configure', 'configure')->name('configure');
+    Route::get('dashboard', [DashboardController::class, '__invoke'])->name('dashboard');
 
 });
 
-require __DIR__.'/auth.php';
+
+require __DIR__ . '/auth.php';
+

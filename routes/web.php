@@ -21,6 +21,7 @@ Route::view('products', 'products')->name('products');
 
 Route::view('create', 'create')->name('create');
 
+
 Route::group(['middleware' => ['auth', 'verified', 'pterodactyl']], function () {
 
     Route::get('dashboard', [DashboardController::class, '__invoke'])->name('dashboard');

@@ -23,7 +23,7 @@ Route::group(['middleware' => ['auth', 'verified']], function (){
 
 Route::view('dashboard', 'dashboard')->name('dashboard');
     
-Route::view('config', 'configure')->name('configure');
+Route::view('configure', 'configure')->name('configure');
 
 });
 

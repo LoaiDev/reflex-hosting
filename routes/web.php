@@ -17,14 +17,13 @@ Route::view('/', 'index')->name('index');
 
 Route::view('products', 'products')->name('products');
 
+Route::view('configure', 'configure')->name('configure');
+
 Route::group(['middleware' => ['auth', 'verified']], function (){
 
 Route::view('dashboard', 'dashboard')->name('dashboard;);
-
-
-Route::view('configure', 'configure')->name('configure');
     
- 
+
 
 });
 

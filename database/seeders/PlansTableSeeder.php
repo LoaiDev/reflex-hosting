@@ -14,6 +14,33 @@ class PlansTableSeeder extends Seeder
      */
     public function run()
     {
+
+        if (config('app.env') == 'production') {
+            $prices = [
+                'price_1IwqevLIUT0hKcoSJdDVmp4h',
+                'price_1Iwqh9LIUT0hKcoSsZAoCihQ',
+                'price_1IwqiWLIUT0hKcoSAh3yIEQZ',
+                'price_1IwqiuLIUT0hKcoSdO1LOJdi',
+                'price_1IwqjFLIUT0hKcoStp5DAwuN',
+                'price_1Iwqk0LIUT0hKcoS3HerTJap',
+                'price_1IwqkJLIUT0hKcoSjtiNwcLx',
+                'price_1IwqkbLIUT0hKcoSymFKQoMD',
+                'price_1Iwql0LIUT0hKcoSkx88kkDM'
+            ];
+
+        } else {
+            $prices = [
+                'price_1IvpaDL6eJXUuCVRYtNZvJIo',
+                'price_1IwbKiL6eJXUuCVRIylfmJGz',
+                'price_1IwakvL6eJXUuCVR6Xt9lwg3',
+                'price_1Iwal9L6eJXUuCVR0hlkRRkH',
+                'price_1IwbIaL6eJXUuCVR1NOaQIBa',
+                'price_1IwalSL6eJXUuCVRm8BaJmyw',
+                'price_1IwalnL6eJXUuCVRPemPgqkE',
+                'price_1IwalwL6eJXUuCVRYtvJiIpo',
+                'price_1IwamDL6eJXUuCVR7M8iUn9y'
+            ];
+        }
         $plans = [
             [
                 'name' => '1gb',
@@ -26,7 +53,6 @@ class PlansTableSeeder extends Seeder
                 'backups' => 1,
                 'allocations' => 3,
                 'price' => 125,
-                'price_id' => 'price_1IvpaDL6eJXUuCVRYtNZvJIo'
             ],
             [
                 'name' => '2gb',
@@ -39,7 +65,6 @@ class PlansTableSeeder extends Seeder
                 'backups' => 1,
                 'allocations' => 3,
                 'price' => 250,
-                'price_id' => 'price_1IwbKiL6eJXUuCVRIylfmJGz'
             ],
             [
                 'name' => '3gb',
@@ -52,7 +77,6 @@ class PlansTableSeeder extends Seeder
                 'backups' => 1,
                 'allocations' => 3,
                 'price' => 375,
-                'price_id' => 'price_1IwakvL6eJXUuCVR6Xt9lwg3'
             ], [
                 'name' => '4gb',
                 'cpu' => 200,
@@ -64,7 +88,6 @@ class PlansTableSeeder extends Seeder
                 'backups' => 1,
                 'allocations' => 3,
                 'price' => 500,
-                'price_id' => 'price_1Iwal9L6eJXUuCVR0hlkRRkH'
             ], [
                 'name' => '5gb',
                 'cpu' => 200,
@@ -76,7 +99,6 @@ class PlansTableSeeder extends Seeder
                 'backups' => 1,
                 'allocations' => 3,
                 'price' => 625,
-                'price_id' => 'price_1IwbIaL6eJXUuCVR1NOaQIBa'
             ], [
                 'name' => '6gb',
                 'cpu' => 200,
@@ -88,7 +110,6 @@ class PlansTableSeeder extends Seeder
                 'backups' => 1,
                 'allocations' => 3,
                 'price' => 750,
-                'price_id' => 'price_1IwalSL6eJXUuCVRm8BaJmyw'
             ], [
                 'name' => '7gb',
                 'cpu' => 250,
@@ -100,7 +121,6 @@ class PlansTableSeeder extends Seeder
                 'backups' => 1,
                 'allocations' => 3,
                 'price' => 875,
-                'price_id' => 'price_1IwalnL6eJXUuCVRPemPgqkE'
             ], [
                 'name' => '8gb',
                 'cpu' => 250,
@@ -112,7 +132,6 @@ class PlansTableSeeder extends Seeder
                 'backups' => 1,
                 'allocations' => 3,
                 'price' => 1000,
-                'price_id' => 'price_1IwalwL6eJXUuCVRYtvJiIpo'
             ], [
                 'name' => '9gb',
                 'cpu' => 250,
@@ -124,9 +143,12 @@ class PlansTableSeeder extends Seeder
                 'backups' => 1,
                 'allocations' => 3,
                 'price' => 1125,
-                'price_id' => 'price_1IwamDL6eJXUuCVR7M8iUn9y'
             ],
         ];
+
+        foreach ($plans as $index => $plan){
+            $plans[$index]['price_id'] = $prices[$index];
+        }
 
         Plan::insert($plans);
     }

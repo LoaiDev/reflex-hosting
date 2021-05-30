@@ -155,7 +155,7 @@ body{font-family: Didact Gothic;}blockquote{border-color: #4e84c2;}div[submit-su
 								<span class="item-text mbr-fonts-style display-7">Unlimited player slots</span>
 							</li></ul>
 					</div>
-					<div class="card-button mbr-section-btn"><a href="{{route('create')}}" class="btn btn-lg btn-primary display-7">Configure</a></div>
+					<div class="card-button mbr-section-btn"><a href="{{route('plan.show', ['plan' => 1])}}" class="btn btn-lg btn-primary display-7">Configure</a></div>
 				</div>
 			</div>
 
@@ -188,7 +188,7 @@ body{font-family: Didact Gothic;}blockquote{border-color: #4e84c2;}div[submit-su
 								<span class="item-text mbr-fonts-style display-7">Unlimited player slots</span>
 							</li></ul>
 					</div>
-					<div class="card-button mbr-section-btn"><a href="{{route('create')}}" class="btn btn-lg btn-primary display-7">Configure</a></div>
+					<div class="card-button mbr-section-btn"><a href="{{route('plan.show', ['plan' => 2])}}" class="btn btn-lg btn-primary display-7">Configure</a></div>
 				</div>
 			</div>
 
@@ -221,7 +221,7 @@ body{font-family: Didact Gothic;}blockquote{border-color: #4e84c2;}div[submit-su
 								<span class="item-text mbr-fonts-style display-7">Unlimited player slots</span>
 							</li></ul>
 					</div>
-					<div class="card-button mbr-section-btn"><a href="{{route('create')}}" class="btn btn-lg btn-primary display-7">Configure</a></div>
+					<div class="card-button mbr-section-btn"><a href="{{route('plan.show', ['plan' => 3])}}" class="btn btn-lg btn-primary display-7">Configure</a></div>
 				</div>
 			</div>
 
@@ -269,7 +269,7 @@ body{font-family: Didact Gothic;}blockquote{border-color: #4e84c2;}div[submit-su
 								<span class="item-text mbr-fonts-style display-7">Unlimited player slots</span>
 							</li></ul>
 					</div>
-					<div class="card-button mbr-section-btn"><a href="{{route('create')}}" class="btn btn-lg btn-primary display-7">Configure</a></div>
+					<div class="card-button mbr-section-btn"><a href="{{route('plan.show', ['plan' => 4])}}" class="btn btn-lg btn-primary display-7">Configure</a></div>
 				</div>
 			</div>
 
@@ -302,7 +302,7 @@ body{font-family: Didact Gothic;}blockquote{border-color: #4e84c2;}div[submit-su
 								<span class="item-text mbr-fonts-style display-7">Unlimited player slots</span>
 							</li></ul>
 					</div>
-					<div class="card-button mbr-section-btn"><a href="{{route('create')}}" class="btn btn-lg btn-primary display-7">Configure</a></div>
+					<div class="card-button mbr-section-btn"><a href="{{route('plan.show', ['plan' => 5])}}" class="btn btn-lg btn-primary display-7">Configure</a></div>
 				</div>
 			</div>
 
@@ -335,7 +335,7 @@ body{font-family: Didact Gothic;}blockquote{border-color: #4e84c2;}div[submit-su
 								<span class="item-text mbr-fonts-style display-7">Unlimited player slots</span>
 							</li></ul>
 					</div>
-					<div class="card-button mbr-section-btn"><a href="{{route('create')}}" class="btn btn-lg btn-primary display-7">Configure</a></div>
+					<div class="card-button mbr-section-btn"><a href="{{route('plan.show', ['plan' => 6])}}" class="btn btn-lg btn-primary display-7">Configure</a></div>
 				</div>
 			</div>
 
@@ -383,7 +383,7 @@ body{font-family: Didact Gothic;}blockquote{border-color: #4e84c2;}div[submit-su
 								<span class="item-text mbr-fonts-style display-7">Unlimited player slots</span>
 							</li></ul>
 					</div>
-					<div class="card-button mbr-section-btn"><a href="{{route('create')}}" class="btn btn-lg btn-primary display-7">Configure</a></div>
+					<div class="card-button mbr-section-btn"><a href="{{route('plan.show', ['plan' => 7])}}" class="btn btn-lg btn-primary display-7">Configure</a></div>
 				</div>
 			</div>
 
@@ -416,7 +416,7 @@ body{font-family: Didact Gothic;}blockquote{border-color: #4e84c2;}div[submit-su
 								<span class="item-text mbr-fonts-style display-7">Unlimited player slots</span>
 							</li></ul>
 					</div>
-					<div class="card-button mbr-section-btn"><a href="{{route('create')}}" class="btn btn-lg btn-primary display-7">Configure</a></div>
+					<div class="card-button mbr-section-btn"><a href="{{route('plan.show', ['plan' => 8])}}" class="btn btn-lg btn-primary display-7">Configure</a></div>
 				</div>
 			</div>
 
@@ -449,7 +449,7 @@ body{font-family: Didact Gothic;}blockquote{border-color: #4e84c2;}div[submit-su
 								<span class="item-text mbr-fonts-style display-7">Unlimited player slots</span>
 							</li></ul>
 					</div>
-					<div class="card-button mbr-section-btn"><a href="{{route('create')}}" class="btn btn-lg btn-primary display-7">Configure</a></div>
+					<div class="card-button mbr-section-btn"><a href="{{route('plan.show', ['plan' => 9])}}" class="btn btn-lg btn-primary display-7">Configure</a></div>
 				</div>
 			</div>
 

@@ -63,5 +63,6 @@ class Kernel extends HttpKernel
         'throttle' => \Illuminate\Routing\Middleware\ThrottleRequests::class,
         'verified' => \Illuminate\Auth\Middleware\EnsureEmailIsVerified::class,
         'pterodactyl' => \App\Http\Middleware\HasPterodactylUser::class,
+        'payment' => \App\Http\Middleware\EnsureUserHasPaymentMethod::class,
     ];
 }

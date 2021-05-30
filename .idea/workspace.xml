@@ -5,7 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7285bdcb-c196-49c5-a516-a6ad9289ea3d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/resources/views/configure.blade.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/configure.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/PaymentController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/PlansController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/EnsureUserHasPaymentMethod.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeders/PlansTableSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/includes/header.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/payments/successful.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/payments/update.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/plans/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/laravel-idea-personal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/reflex-hosting.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/reflex-hosting.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/DashboardController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/DashboardController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_05_25_143547_create_plans_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_05_25_143547_create_plans_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/products.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/products.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +160,9 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1sMQOM3KrQuYFmfCSlnWipqr9bi" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -150,7 +171,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../HypnoCarts" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.spelling" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -200,6 +221,11 @@
       <workItem from="1621857760010" duration="3745000" />
       <workItem from="1621870482868" duration="14457000" />
       <workItem from="1621945354044" duration="8153000" />
+      <workItem from="1622145541336" duration="7082000" />
+      <workItem from="1622154695127" duration="840000" />
+      <workItem from="1622243268327" duration="2480000" />
+      <workItem from="1622306162172" duration="33000" />
+      <workItem from="1622327300235" duration="9373000" />
     </task>
     <servers />
   </component>
@@ -211,22 +237,30 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1621705361174" />
-    <state x="532" y="274" key="Create Controller" timestamp="1621966878281">
+    <state x="476" y="129" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1622330529561">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="532" y="274" key="Create Controller/0.0.1366.728@0.0.1366.728" timestamp="1621966878281" />
+    <state x="476" y="129" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1622330529561" />
+    <state x="532" y="274" key="Create Controller" timestamp="1622330440273">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="532" y="274" key="Create Controller/0.0.1366.728@0.0.1366.728" timestamp="1622330440273" />
     <state x="557" y="228" key="Create Database Migration" timestamp="1621946147501">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="557" y="228" key="Create Database Migration/0.0.1366.728@0.0.1366.728" timestamp="1621946147501" />
+    <state x="557" y="288" key="Create Database Seeder" timestamp="1622328670874">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="557" y="288" key="Create Database Seeder/0.0.1366.728@0.0.1366.728" timestamp="1622328670874" />
     <state x="557" y="246" key="Create Event Listener" timestamp="1621887560984">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="557" y="246" key="Create Event Listener/0.0.1366.728@0.0.1366.728" timestamp="1621887560984" />
-    <state x="526" y="259" key="Create Middleware" timestamp="1621967056534">
+    <state x="526" y="259" key="Create Middleware" timestamp="1622327939076">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="526" y="259" key="Create Middleware/0.0.1366.728@0.0.1366.728" timestamp="1621967056534" />
+    <state x="526" y="259" key="Create Middleware/0.0.1366.728@0.0.1366.728" timestamp="1622327939076" />
     <state x="557" y="288" key="Create Model" timestamp="1621946054700">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -235,10 +269,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="537" y="245" key="Create Notification/0.0.1366.728@0.0.1366.728" timestamp="1621889801442" />
-    <state x="557" y="288" key="Create View" timestamp="1621779050284">
+    <state x="557" y="288" key="Create View" timestamp="1622336616232">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="557" y="288" key="Create View/0.0.1366.728@0.0.1366.728" timestamp="1621779050284" />
+    <state x="557" y="288" key="Create View/0.0.1366.728@0.0.1366.728" timestamp="1622336616232" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1622154330363">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1622154330363" />
     <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1620683224642">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -263,13 +301,17 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="468" y="87" key="NewPhpClassDialog/0.0.1366.728@0.0.1366.728" timestamp="1621875446115" />
+    <state x="517" y="287" key="NewPhpFileDialog" timestamp="1622146766611">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1622146766611" />
     <state x="184" y="9" key="SettingsEditor" timestamp="1621876310509">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1621876310509" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1621972982487">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1622336370641">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1621972982487" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1622336370641" />
   </component>
 </project>

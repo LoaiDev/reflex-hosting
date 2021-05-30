@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ram</title>
+    <title>Configure</title>
 </head>
 <body>
 <nav class="navbar">
@@ -16,83 +16,54 @@
     <h1>Configure Your Server!</h1>
     <div class="services__wrapper">
         <div class="services__card">
-            <h2>1gb ram</h2>
-            <p>Perfect to play with a couple friends!</p>
+            <h2>Fabric</h2>
+            <p>Fabric: Fabric allows you to have modpacks installed on your servers. You can also install individual mods.</p>
             <div class="services__btn">
                 <li>
-                    <label for='1'><button><a href="{{route('plan.show', ['plan' => 1])}}">Configure</a></button> </label>
+                    <form action="{{route('plan.create', ['plan' => $plan->id])}}" method="post">
+                        @csrf
+                        <input type="hidden" name="jar" value="3">
+                        <label for='fabric'><button type="submit">Get Started</button> </label>
+                    </form>
                 </li>
             </div>
         </div>
         <div class="services__card">
-            <h2>2gb Server</h2>
-            <p>Perfect to have 10 players online</p>
+            <h2>Paper</h2>
+            <p>Paper: Paper is a fork of Spigot which allows you to install plugins and have a HUGE performance boost.</p>
             <div class="services__btn">
                 <li>
-                    <label for='2'><button><a href="{{route('plan.show', ['plan' => 2])}}">Configure</a></button> </label>
+                    <form action="{{route('plan.create', ['plan' => $plan->id])}}" method="post">
+                        @csrf
+                        <input type="hidden" name="jar" value="3">
+                        <label for='paper'><button type="submit">Get Started</button> </label>
+                    </form>
                 </li>
             </div>
         </div>
         <div class="services__card">
-            <h2>3gb Server</h2>
-            <p>Can easily handle 15 players</p>
+            <h2>Vanilla</h2>
+            <p>Vanilla: Good old Vanilla, no plugins and no optimizations, but works great nonetheless.</p>
             <div class="services__btn">
                 <li>
-                    <label for='3'><button><a href="{{route('plan.show', ['plan' => 3])}}">Configure</a></button> </label>
+                    <form action="{{route('plan.create', ['plan' => $plan->id])}}" method="post">
+                        @csrf
+                        <input type="hidden" name="jar" value="3">
+                        <label for='vanilla'><button type="submit">Get Started</button> </label>
+                    </form>
                 </li>
             </div>
         </div>
         <div class="services__card">
-            <h2>4gb Server</h2>
-            <p>Can hande 20 to 25 players and all plugins</p>
+            <h2>Spigot</h2>
+            <p>Spigot: Spigot is a fork of Bukkit which allows you to install plugins and have a pretty good performance boost.</p>
             <div class="services__btn">
                 <li>
-                    <label for='4'><button><a href="{{route('plan.show', ['plan' => 4])}}">Configure</a></button> </label>
-                </li>
-            </div>
-        </div>
-        <div class="services__card">
-            <h2>5gb Server</h2>
-            <p>Can handle 30 players and all plugins</p>
-            <div class="services__btn">
-                <li>
-                    <label for='5'><button><a href="{{route('plan.show', ['plan' => 5])}}">Configure</a></button> </label>
-                </li>
-            </div>
-        </div>
-        <div class="services__card">
-            <h2>6gb Server</h2>
-            <p>can handle 40 players and all plugins</p>
-            <div class="services__btn">
-                <li>
-                    <label for='6'><button><a href="{{route('plan.show', ['plan' => 6])}}">Configure</a></button> </label>
-                </li>
-            </div>
-        </div>
-        <div class="services__card">
-            <h2>7gb Server</h2>
-            <p>Can handle 40 players online and all modpacks and plugins</p>
-            <div class="services__btn">
-                <li>
-                    <label for='7'><button><a href="{{route('plan.show', ['plan' => 7])}}">Configure</a></button> </label>
-                </li>
-            </div>
-        </div>
-        <div class="services__card">
-            <h2>8gb server</h2>
-            <p>Can handle 45 players online and all modpacks and plugins</p>
-            <div class="services__btn">
-                <li>
-                    <label for='8'><button><a href="{{route('plan.show', ['plan' => 8])}}">Configure</a></button> </label>
-                </li>
-            </div>
-        </div>
-        <div class="services__card">
-            <h2>9gb Server</h2>
-            <p>Can handle 50 players online and all modpacks and plugins</p>
-            <div class="services__btn">
-                <li>
-                    <label for='9'><button><a href="{{route('plan.show', ['plan' => 9])}}">Configure</a></button> </label>
+                    <form action="{{route('plan.create', ['plan' => $plan->id])}}" method="post">
+                        @csrf
+                        <input type="hidden" name="jar" value="3">
+                        <label for='spigot'><button type="submit">Get Started</button> </label>
+                    </form>
                 </li>
             </div>
         </div>
@@ -152,9 +123,12 @@
     }
 
     .services h1 {
+        background-color: #ff8177;
         background: #2193b0;  /* fallback for old browsers */
         background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
         background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        background-size: 100%;
         -webkit-background-clip: text;
         -moz-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -185,21 +159,7 @@
         transition: 0.3s ease-in;
     }
 
-    .services__card:nth-child(2) {
-        background: #2193b0;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-
-    }
-
-    .services__card:nth-child(3) {
-        background: #2193b0;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
-    }
 
     .services__card h2 {
         text-align: center;

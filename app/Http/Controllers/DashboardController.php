@@ -13,7 +13,7 @@ class DashboardController extends Controller
         $userData = Pterodactyl::getUserWithServers(Auth::user()->pterodactyl_id);
         $servers = Arr::get($userData, 'attributes.relationships.servers.data');
         if (empty($servers)) {
-            return redirect(route('products'));
+            return redirect(route('create'));
         }
         return view('dashboard')->with('servers', $servers);
     }

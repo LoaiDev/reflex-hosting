@@ -10,12 +10,17 @@ class CreatePlansTable extends Migration
     {
         Schema::create('plans', function (Blueprint $table) {
             $table->bigIncrements('id');
+            $table->string('name');
             $table->integer('cpu');
-            $table->integer('ram');
+            $table->integer('memory');
             $table->integer('swap');
             $table->integer('disk');
             $table->integer('io');
+            $table->integer('databases');
+            $table->integer('backups');
+            $table->integer('allocations');
             $table->integer('price');
+            $table->string('price_id');
             $table->timestamps();
         });
     }

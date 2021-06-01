@@ -135,7 +135,7 @@ body{font-family: Didact Gothic;}blockquote{border-color: #4e84c2;}div[submit-su
 					<div class="card-price-wrap">
 						<div class="card-price">
 							<span class="price-sign mbr-black mbr-fonts-style display-2">$</span>
-							<span class="price-value mbr-black mbr-fonts-style display-2">1.25</span>
+							<span class="price-value mbr-black mbr-fonts-style display-2">2.00</span>
 						</div>
 
 					</div>
@@ -168,7 +168,7 @@ body{font-family: Didact Gothic;}blockquote{border-color: #4e84c2;}div[submit-su
 					<div class="card-price-wrap">
 						<div class="card-price">
 							<span class="price-sign mbr-black mbr-fonts-style display-2">$</span>
-							<span class="price-value mbr-black mbr-fonts-style display-2">2.50</span>
+							<span class="price-value mbr-black mbr-fonts-style display-2">4.00</span>
 						</div>
 
 					</div>
@@ -201,7 +201,7 @@ body{font-family: Didact Gothic;}blockquote{border-color: #4e84c2;}div[submit-su
 					<div class="card-price-wrap">
 						<div class="card-price">
 							<span class="price-sign mbr-black mbr-fonts-style display-2">$</span>
-							<span class="price-value mbr-black mbr-fonts-style display-2">3.75</span>
+							<span class="price-value mbr-black mbr-fonts-style display-2">6.00</span>
 						</div>
 
 					</div>
@@ -249,7 +249,7 @@ body{font-family: Didact Gothic;}blockquote{border-color: #4e84c2;}div[submit-su
 					<div class="card-price-wrap">
 						<div class="card-price">
 							<span class="price-sign mbr-black mbr-fonts-style display-2">$</span>
-							<span class="price-value mbr-black mbr-fonts-style display-2">5.00</span>
+							<span class="price-value mbr-black mbr-fonts-style display-2">8.00</span>
 						</div>
 
 					</div>
@@ -282,7 +282,7 @@ body{font-family: Didact Gothic;}blockquote{border-color: #4e84c2;}div[submit-su
 					<div class="card-price-wrap">
 						<div class="card-price">
 							<span class="price-sign mbr-black mbr-fonts-style display-2">$</span>
-							<span class="price-value mbr-black mbr-fonts-style display-2">6.25</span>
+							<span class="price-value mbr-black mbr-fonts-style display-2">10.00</span>
 						</div>
 
 					</div>
@@ -315,7 +315,7 @@ body{font-family: Didact Gothic;}blockquote{border-color: #4e84c2;}div[submit-su
 					<div class="card-price-wrap">
 						<div class="card-price">
 							<span class="price-sign mbr-black mbr-fonts-style display-2">$</span>
-							<span class="price-value mbr-black mbr-fonts-style display-2">7.50</span>
+							<span class="price-value mbr-black mbr-fonts-style display-2">12.00</span>
 						</div>
 
 					</div>
@@ -363,7 +363,7 @@ body{font-family: Didact Gothic;}blockquote{border-color: #4e84c2;}div[submit-su
 					<div class="card-price-wrap">
 						<div class="card-price">
 							<span class="price-sign mbr-black mbr-fonts-style display-2">$</span>
-							<span class="price-value mbr-black mbr-fonts-style display-2">8.75</span>
+							<span class="price-value mbr-black mbr-fonts-style display-2">14.00</span>
 						</div>
 
 					</div>
@@ -396,7 +396,7 @@ body{font-family: Didact Gothic;}blockquote{border-color: #4e84c2;}div[submit-su
 					<div class="card-price-wrap">
 						<div class="card-price">
 							<span class="price-sign mbr-black mbr-fonts-style display-2">$</span>
-							<span class="price-value mbr-black mbr-fonts-style display-2">10.00</span>
+							<span class="price-value mbr-black mbr-fonts-style display-2">16.00</span>
 						</div>
 
 					</div>
@@ -429,7 +429,7 @@ body{font-family: Didact Gothic;}blockquote{border-color: #4e84c2;}div[submit-su
 					<div class="card-price-wrap">
 						<div class="card-price">
 							<span class="price-sign mbr-black mbr-fonts-style display-2">$</span>
-							<span class="price-value mbr-black mbr-fonts-style display-2">11.25</span>
+							<span class="price-value mbr-black mbr-fonts-style display-2">18.00</span>
 						</div>
 
 					</div>

@@ -17,7 +17,7 @@ class PlansTableSeeder extends Seeder
 
         if (config('app.env') == 'production') {
             $prices = [
-                'price_1IwqevLIUT0hKcoSJdDVmp4h',
+                'price_1IzmyxLIUT0hKcoSJjtit3yY',
                 'price_1Iwqh9LIUT0hKcoSsZAoCihQ',
                 'price_1IwqiWLIUT0hKcoSAh3yIEQZ',
                 'price_1IwqiuLIUT0hKcoSdO1LOJdi',

@@ -44,7 +44,7 @@ class PlansTableSeeder extends Seeder
         $plans = [
             [
                 'name' => '1gb',
-                'cpu' => 150,
+                'cpu' => 400,
                 'memory' => 1024,
                 'disk' => 1024 * 50,
                 'swap' => 0,
@@ -56,7 +56,7 @@ class PlansTableSeeder extends Seeder
             ],
             [
                 'name' => '2gb',
-                'cpu' => 150,
+                'cpu' => 400,
                 'memory' => 2 * 1024,
                 'disk' => 1024 * 50,
                 'swap' => 0,
@@ -68,7 +68,7 @@ class PlansTableSeeder extends Seeder
             ],
             [
                 'name' => '3gb',
-                'cpu' => 150,
+                'cpu' => 400,
                 'memory' => 3 * 1024,
                 'disk' => 1024 * 50,
                 'swap' => 0,
@@ -79,7 +79,7 @@ class PlansTableSeeder extends Seeder
                 'price' => 375,
             ], [
                 'name' => '4gb',
-                'cpu' => 200,
+                'cpu' => 400,
                 'memory' => 4 * 1024,
                 'disk' => 1024 * 75,
                 'swap' => 0,
@@ -90,7 +90,7 @@ class PlansTableSeeder extends Seeder
                 'price' => 500,
             ], [
                 'name' => '5gb',
-                'cpu' => 200,
+                'cpu' => 400,
                 'memory' => 5 * 1024,
                 'disk' => 1024 * 75,
                 'swap' => 0,
@@ -101,7 +101,7 @@ class PlansTableSeeder extends Seeder
                 'price' => 625,
             ], [
                 'name' => '6gb',
-                'cpu' => 200,
+                'cpu' => 400,
                 'memory' => 6 * 1024,
                 'disk' => 1024 * 75,
                 'swap' => 0,
@@ -112,7 +112,7 @@ class PlansTableSeeder extends Seeder
                 'price' => 750,
             ], [
                 'name' => '7gb',
-                'cpu' => 250,
+                'cpu' => 400,
                 'memory' => 7 * 1024,
                 'disk' => 1024 * 100,
                 'swap' => 0,
@@ -123,7 +123,7 @@ class PlansTableSeeder extends Seeder
                 'price' => 875,
             ], [
                 'name' => '8gb',
-                'cpu' => 250,
+                'cpu' => 400,
                 'memory' => 8 * 1024,
                 'disk' => 1024 * 100,
                 'swap' => 0,
@@ -134,7 +134,7 @@ class PlansTableSeeder extends Seeder
                 'price' => 1000,
             ], [
                 'name' => '9gb',
-                'cpu' => 250,
+                'cpu' => 400,
                 'memory' => 9 * 1024,
                 'disk' => 1024 * 100,
                 'swap' => 0,

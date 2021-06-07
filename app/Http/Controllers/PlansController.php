@@ -6,6 +6,7 @@ use App\Models\Plan;
 use Illuminate\Http\Request;
 use Laravel\Cashier\Exceptions\IncompletePayment;
 use Session;
+use Carbon\Carbon;
 
 class PlansController extends Controller
 {
@@ -36,13 +37,17 @@ class PlansController extends Controller
         }
         $plan = Plan::findOrFail($cart['plan_id']);
         try {
-            $request->user()->newSubscription($plan->name, $plan->price_id)->add();
+            $request->user()
+                ->newSubscription($request->user()->name . $plan->name . 'server', $plan->price_id)
+//                ->trialUntil(Carbon::now()->addMinutes(1))
+                ->add();
         } catch (IncompletePayment $exception) {
             return redirect()->route(
                 'cashier.payment',
                 [$exception->payment->id, 'redirect' => route('payment.successful')]
             );
         }
+        Session::remove('cart');
         return redirect(route('payment.successful'));
     }
 }

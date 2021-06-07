@@ -5,6 +5,7 @@ namespace App\Clients;
 
 
 use Illuminate\Http\Client\Response;
+use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Http;
 
 /**
@@ -89,5 +90,55 @@ class PterodactylClient
     public function getUserWithServers(int $id)
     {
         return $this->withIncludes('servers')->get('users/' . $id)->json();
+    }
+
+    public function createServer($data)
+    {
+        $data = array_merge([
+            'docker_image' => 'quay.io/pterodactyl/core:java',
+            'startup' => 'java -Xms128M -Xmx{{SERVER_MEMORY}}M -jar {{SERVER_JARFILE}}',
+            "egg" => 3,
+            'environment' => [
+                'SERVER_JARFILE' => 'server.jar',
+                'BUNGEE_VERSION' => 'latest'
+            ],
+            'limits' => [
+                'cpu' => 150,
+                'disk' => 1024 * 50,
+                'swap' => 0,
+                'io' => 500
+            ],
+            'feature_limits' => [
+                'databases' => 1,
+                'backups' => 1,
+                'allocations' => 3
+            ],
+            'allocation' => [
+                'default' => isset($data['allocation']['default']) ?: $this-> getUnassignedAllocation()['attributes']['id']
+            ],
+            'start_on_completion' => false,
+
+        ], $data);
+//        dump($data);
+//        dd($this->post('servers', $data)->body());
+        $this->post('servers', $data)->json();
+    }
+
+    public function suspendServer($server_id)
+    {
+        return $this->post('servers/' . $server_id . '/ suspend');
+    }
+
+    public function unsuspendServer($server_id)
+    {
+        return $this->post('servers/' . $server_id . '/unsuspend');
+    }
+
+    public function getUnassignedAllocation($node_id = 2)
+    {
+        $allocations = $this->get('nodes/' . $node_id . '/allocations')->json()['data'];
+        return Arr::first($allocations, function ($allocation) {
+            return !$allocation['attributes']['assigned'];
+        });
     }
 }

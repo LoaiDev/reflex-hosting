@@ -5,17 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7285bdcb-c196-49c5-a516-a6ad9289ea3d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Notifications/PaymentRequiresAction.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Observers/SubscriptionObserver.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stripe.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Clients/PterodactylClient.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Clients/PterodactylClient.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PlansController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PlansController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Plan.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Plan.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/cashier.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/cashier.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_05_03_000002_create_subscriptions_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_05_03_000002_create_subscriptions_table.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -231,7 +221,7 @@
       <workItem from="1622811801733" duration="5757000" />
       <workItem from="1622843920381" duration="2049000" />
       <workItem from="1622911696103" duration="2946000" />
-      <workItem from="1623067826661" duration="777000" />
+      <workItem from="1623067826661" duration="914000" />
     </task>
     <servers />
   </component>

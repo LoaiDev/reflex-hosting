@@ -1,2 +1,2 @@
 # Reflex Hosting
-A minecraft server hosting start up.
+A Minecraft server hosting startup.
